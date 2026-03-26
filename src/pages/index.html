@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oris. — Sites que geram clientes</title>
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../static/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cursor elements -->
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    Oris<span class="nav-logo-dot">.</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#como">Como funciona</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" id="themeBtn" title="Alternar tema" aria-label="Alternar tema">
+      <span id="themeIcon">
+        <!-- sun icon (shown in dark mode) -->
+        <svg id="iconSun" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="9" cy="9" r="3.5" stroke="var(--orange)" stroke-width="1.6"/>
+          <path d="M9 1.5v2M9 14.5v2M1.5 9h2M14.5 9h2M3.7 3.7l1.4 1.4M12.9 12.9l1.4 1.4M3.7 14.3l1.4-1.4M12.9 5.1l1.4-1.4" stroke="var(--orange)" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <!-- moon icon (shown in light mode, hidden by default) -->
+        <svg id="iconMoon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none">
+          <path d="M14.5 10.5A6 6 0 0 1 7.5 3.5a6 6 0 1 0 7 7z" stroke="var(--orange)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+    </button>
+    <a href="https://wa.me/5512997736451" target="_blank" rel="noopener" class="btn-cta">
+      Falar com a gente
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-watermark hero-watermark--top">sites</div>
+  <div class="hero-watermark">sites</div>
+  <div class="hero-watermark hero-watermark--bottom">sites</div>
+  <div class="hero-bracket"></div>
+
+  <div class="hero-tag fade-up visible">Agência de sites que convertem</div>
+  <h1 class="hero-title fade-up visible">
+    Não é sobre<br>ter um site...<br>
+    é sobre ser<br><span>lembrado.</span>
+  </h1>
+  <p class="hero-sub fade-up visible">
+    Criamos sites que trabalham por você enquanto você dorme. Design profissional, entrega rápida e foco total em conversão.
+  </p>
+  <div class="hero-actions fade-up visible">
+    <a href="https://wa.me/5512997736451" target="_blank" rel="noopener" class="btn-cta">
+      Quero meu site
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <a href="#servicos" class="btn-ghost">Ver serviços</a>
+  </div>
+
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stat-item fade-up">
+    <div class="stat-num"><span>100</span><span class="stat-unit">%</span></div>
+    <div class="stat-label">Focado em conversão</div>
+  </div>
+  <div class="stat-item fade-up">
+    <div class="stat-num"><span>7</span> dias</div>
+    <div class="stat-label">Prazo médio de entrega</div>
+  </div>
+  <div class="stat-item fade-up">
+    <div class="stat-num"><span>3</span><span class="stat-unit">×</span></div>
+    <div class="stat-label">Mais conversões vs. antes</div>
+  </div>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <div class="marquee-item">Design profissional</div>
+      <div class="marquee-item">Entrega rápida</div>
+      <div class="marquee-item">Foco em conversão</div>
+      <div class="marquee-item">Mobile first</div>
+      <div class="marquee-item">SEO otimizado</div>
+      <div class="marquee-item">Alta performance</div>
+      <div class="marquee-item">Identidade visual</div>
+    </div>
+    <!-- Grupo duplicado para loop infinito perfeito -->
+    <div class="marquee-group">
+      <div class="marquee-item">Design profissional</div>
+      <div class="marquee-item">Entrega rápida</div>
+      <div class="marquee-item">Foco em conversão</div>
+      <div class="marquee-item">Mobile first</div>
+      <div class="marquee-item">SEO otimizado</div>
+      <div class="marquee-item">Alta performance</div>
+      <div class="marquee-item">Identidade visual</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section id="como">
+  <div class="section-eyebrow">Como funciona</div>
+  <h2 class="section-title fade-up">Do briefing ao <span>site no ar.</span></h2>
+  <p class="section-sub fade-up">Processo simples, resultado profissional. Em 7 dias você tem um site que realmente converte.</p>
+
+  <div class="how-grid">
+    <div class="how-item fade-up">
+      <div class="how-num">01</div>
+      <div class="how-icon">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="2" width="12" height="16" rx="2" stroke="var(--orange)" stroke-width="1.6"/>
+          <path d="M7 7h6M7 10h6M7 13h4" stroke="var(--orange)" stroke-width="1.6" stroke-linecap="round"/>
+          <rect x="8" y="1" width="4" height="2.5" rx="1" fill="var(--orange)"/>
+        </svg>
+      </div>
+      <div class="how-h">Briefing</div>
+      <p class="how-p">Entendemos seu negócio, público-alvo e objetivos. Uma conversa de 15 minutos que define tudo.</p>
+    </div>
+    <div class="how-item fade-up">
+      <div class="how-num">02</div>
+      <div class="how-icon">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="7.5" stroke="var(--orange)" stroke-width="1.6"/>
+          <circle cx="10" cy="10" r="2.5" fill="var(--orange)"/>
+          <path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2" stroke="var(--orange)" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="how-h">Design & Build</div>
+      <p class="how-p">Criamos o design exclusivo e desenvolvemos seu site com foco em experiência e conversão.</p>
+    </div>
+    <div class="how-item fade-up">
+      <div class="how-num">03</div>
+      <div class="how-icon">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 2C10 2 13.5 4.5 13.5 9.5C13.5 12 12 13.5 10 14.5C8 13.5 6.5 12 6.5 9.5C6.5 4.5 10 2Z" stroke="var(--orange)" stroke-width="1.6" stroke-linejoin="round"/>
+          <circle cx="10" cy="9" r="1.5" fill="var(--orange)"/>
+          <path d="M7 13.5L5.5 17M13 13.5L14.5 17" stroke="var(--orange)" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M6.5 9.5C5 10.5 4 12 4 13L6.5 12.5" stroke="var(--orange)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13.5 9.5C15 10.5 16 12 16 13L13.5 12.5" stroke="var(--orange)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="how-h">Go Live</div>
+      <p class="how-p">Revisões, aprovação e publicação. Seu site no ar em até 7 dias, pronto para gerar clientes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="servicos">
+  <div class="section-eyebrow">Serviços</div>
+  <h2 class="section-title fade-up">Criamos sites que <span>geram clientes.</span></h2>
+  <p class="section-sub fade-up">Tudo que seu negócio precisa para ter uma presença digital que realmente converte.</p>
+
+  <div class="services-grid">
+    <div class="service-card featured fade-up">
+      <div class="service-num">✦ Mais popular</div>
+      <h3 class="service-h">Site Institucional</h3>
+      <p class="service-sub">Sua vitrine digital. Apresente sua empresa de forma profissional e gere autoridade no mercado.</p>
+      <span class="service-tag">Design exclusivo</span>
+      <span class="service-tag">Mobile first</span>
+      <span class="service-tag">SEO</span>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-num">02</div>
+      <h3 class="service-h">Landing Page</h3>
+      <p class="service-sub">Páginas de alta conversão para campanhas, lançamentos e captação de leads qualificados.</p>
+      <span class="service-tag">Otimizada p/ conversão</span>
+      <span class="service-tag">A/B ready</span>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-num">03</div>
+      <h3 class="service-h">E-commerce</h3>
+      <p class="service-sub">Loja online completa com checkout otimizado, gestão de produtos e integração de pagamentos.</p>
+      <span class="service-tag">Pagamentos integrados</span>
+      <span class="service-tag">Gestão simples</span>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-num">04</div>
+      <h3 class="service-h">Redesign</h3>
+      <p class="service-sub">Transformamos seu site antigo em uma máquina de conversão com identidade visual renovada.</p>
+      <span class="service-tag">Diagnóstico gratuito</span>
+      <span class="service-tag">Migração incluída</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SPLIT -->
+<section id="sobre">
+  <div class="split-section">
+    <div>
+      <div class="section-eyebrow">Sobre a Oris</div>
+      <h2 class="section-title fade-up">Enquanto você dorme, seu site está <span>trabalhando.</span></h2>
+      <p class="section-sub fade-up" style="margin-bottom: 32px;">Somos uma agência especializada em criar sites que vendem. Não apenas sites bonitos — sites que falam por você quando você não está presente.</p>
+      <p style="font-size:15px; color:var(--muted); line-height:1.6; margin-bottom:40px;" class="fade-up">Cada projeto é criado com atenção obsessiva aos detalhes, focado nos seus objetivos de negócio. Design profissional, código limpo e estratégia de conversão em cada pixel.</p>
+      <a href="https://wa.me/5512997736451" target="_blank" rel="noopener" class="btn-cta fade-up">
+        Conheça a Oris
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+    <div class="split-visual fade-up">
+      <div class="bracket-deco tl"></div>
+      <div class="bracket-deco br"></div>
+      <div class="split-logo-anim">Oris<span class="dot" style="color:var(--orange)">.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="depoimentos">
+  <div class="section-eyebrow">Depoimentos</div>
+  <h2 class="section-title fade-up">O que nossos <span>clientes dizem.</span></h2>
+
+  <div class="testi-grid">
+    <div class="testi-card fade-up">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">"Em 7 dias tive um site que parece de grande empresa. As consultas dobraram no primeiro mês."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">MR</div>
+        <div>
+          <div class="testi-name">Marcos Ribeiro</div>
+          <div class="testi-role">Arquiteto</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">"Finalmente um site que representa minha marca de verdade. Processo rápido e resultado incrível."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">AF</div>
+        <div>
+          <div class="testi-name">Ana Ferreira</div>
+          <div class="testi-role">Consultora de Imagem</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-text">"O ROI foi imediato. O site novo gerou mais leads em 2 semanas do que o anterior em 1 ano."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">CS</div>
+        <div>
+          <div class="testi-name">Carlos Santos</div>
+          <div class="testi-role">CEO, TechStart</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band" id="contato">
+  <h2 class="cta-band-title">
+    Pronto para ser<br><span>lembrado?</span>
+  </h2>
+  <a href="https://wa.me/5512997736451" target="_blank" rel="noopener" class="btn-cta-dark">
+    Falar com a Oris
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo">
+        Oris<span style="color:var(--orange)">.</span>
+      </div>
+      <p class="footer-desc">Sites que geram clientes. Design profissional, entrega rápida, foco em conversão.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#">Site Institucional</a></li>
+          <li><a href="#">Landing Page</a></li>
+          <li><a href="#">E-commerce</a></li>
+          <li><a href="#">Redesign</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Cases</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Behance</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 Oris. Todos os direitos reservados.</span>
+    <span class="footer-badge">Online e convertendo</span>
+  </div>
+</footer>
+
+<script src="../static/script.js"></script>
+</body>
+</html>

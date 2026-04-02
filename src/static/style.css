@@ -34,7 +34,7 @@
     --muted2: #bbb;
   }
   
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; user-select: none;}
   html { scroll-behavior: smooth; }
   
   /* Esconder cursor padrão em desktop */

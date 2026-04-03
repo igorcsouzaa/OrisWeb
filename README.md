@@ -30,6 +30,10 @@ O site apresenta:
 - Seção institucional sobre a Oris
 - CTA direto para WhatsApp em todo o fluxo
 
+<p align="center">
+  <img src="docs/tela1.png" width="98%" />
+</p>
+
 ---
 
 ## 🛠 Tecnologias Utilizadas

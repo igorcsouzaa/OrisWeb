@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina | Clínica de Estética Avançada</title>
+    <meta name="description" content="Clínica de estética especializada em tratamentos faciais e corporais focados em realçar sua beleza natural com sofisticação e segurança.">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Lumina.</div>
+        <ul class="nav-links">
+            <li><a href="#inicio" class="underline">Início</a></li>
+            <li><a href="#servicos" class="underline">Tratamentos</a></li>
+            <li><a href="#contato" class="underline">Agendar</a></li>
+            <li><a href="#contato" class="nav-btn pulse-animation">Avaliação Gratuita</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <!-- Using the successfully generated AI image -->
+        <img src="assets/hero_lumina_1775615802605.png" alt="Recepção Clínica Lumina" class="hero-img">
+        <div class="hero-content hidden">
+            <h1>Sua Beleza,<br>Elevada à Perfeição.</h1>
+            <p>Descubra tratamentos estéticos de alto padrão em um ambiente luxuoso e relaxante. Realce o que você tem de melhor com segurança e resultados visíveis.</p>
+            <a href="#contato" class="btn pulse-animation">Agende sua Avaliação</a>
+        </div>
+    </section>
+
+    <section class="services" id="servicos">
+        <div class="hidden">
+            <h2 class="section-title">Nossos Tratamentos</h2>
+            <p class="section-subtitle">Procedimentos de ponta, personalizados para as necessidades únicas da sua pele e corpo.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card hidden floating-1">
+                <img src="assets/treatment_facial_1775615825108.png" alt="Tratamento Facial" class="service-img">
+                <div class="service-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></svg>
+                </div>
+                <h3>Rejuvenescimento Facial</h3>
+                <p>Botox, preenchimentos e bioestimuladores de colágeno para atenuar rugas e devolver a firmeza da pele, com aspecto natural e elegante.</p>
+            </div>
+            <div class="service-card hidden floating-2" style="transition-delay: 0.1s;">
+                <img src="assets/treatment_skin_1775615918156.png" alt="Revitalização da Pele" class="service-img">
+                <div class="service-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                </div>
+                <h3>Revitalização da Pele</h3>
+                <p>Peelings luxuosos, limpeza de pele profunda e hidratação intensa que restauram o brilho e a textura sedosa do seu rosto.</p>
+            </div>
+            <div class="service-card hidden floating-3" style="transition-delay: 0.2s;">
+                <img src="assets/treatment_body_1775615933097.png" alt="Estética Corporal" class="service-img">
+                <div class="service-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h3>Estética Corporal</h3>
+                <p>Protocolos avançados para redução de medidas, celulite e contorno corporal, unindo tecnologia e relaxamento para resultados eficazes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contato">
+        <div class="hidden">
+            <h2 class="section-title">Dê o Primeiro Passo</h2>
+            <p class="section-subtitle">Agende hoje mesmo uma avaliação inicial. Nossas especialistas farão um plano de tratamento sob medida para os seus objetivos.</p>
+        </div>
+
+        <div class="form-container hidden">
+            <form id="lead-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required placeholder="Seu nome elegante...">
+                </div>
+                <div class="form-group">
+                    <label for="interesse">Serviço de Interesse</label>
+                    <select id="interesse">
+                        <option value="facial">Rejuvenescimento Facial</option>
+                        <option value="pele">Revitalização da Pele (Limpeza/Peeling)</option>
+                        <option value="corporal">Estética Corporal</option>
+                        <option value="duvida">Não sei, quero uma avaliação</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Solicitar Contato Via WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="hidden" style="transition-delay: 0.2s;">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="logo" style="color: var(--color-white);">Lumina.</h3>
+                <p style="margin-top: 1rem;">Elevando sua beleza à perfeição com protocolos exclusivos e atendimento personalizado.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>WhatsApp: (11) 99999-9999</p>
+                <p>E-mail: contato@clinicalumina.com</p>
+                <p>Av. Paulista, 1000 - São Paulo, SP</p>
+            </div>
+            <div class="footer-col">
+                <h4>Siga-nos</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Clínica Lumina. Todos os direitos reservados. Focado em Beleza & Bem-estar.</p>
+        </div>
+    </footer>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
